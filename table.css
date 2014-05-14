@@ -1,0 +1,16 @@
+.matrix table {
+    width: 500;
+    border: 1px #000000 solid;
+}
+
+.matrix td {
+    border: 1px #000000 solid;
+}
+
+.matrix th{
+    border: 1px #000000 solid;
+}
+
+.matrix tr:nth-child(even){
+    background: #ffe4e1;
+}
