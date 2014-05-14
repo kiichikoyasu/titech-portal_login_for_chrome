@@ -6,6 +6,10 @@ chrome.extension.onRequest.addListener(
                 console.log(request.key);
                 break;
 
+            case 'getInfo':
+                sendResponse(getItem(request.key));
+                break;
+
             case 'getName':
                 sendResponse('name');
                 break;

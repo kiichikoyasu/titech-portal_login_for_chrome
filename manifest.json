@@ -15,7 +15,7 @@
 
     "content_scripts": [
     {
-        "matches": ["https://portal.nap.gsic.titech.ac.jp/GetAccess/Login?Template=userpass_key"],
+        "matches": ["https://portal.nap.gsic.titech.ac.jp/GetAccess/Login?Template=userpass_key", "https://portal.nap.gsic.titech.ac.jp/GetAccess/Login?Template=userpass_key&MESSAGE=LogoutSuccessful&LOCALE=ja_JP&InvalidateSession=true"],
         "js": ["sample1.js", "sample2.js"]
     },
     {
