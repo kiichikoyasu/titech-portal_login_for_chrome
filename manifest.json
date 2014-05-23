@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
-    "name": "Page Action Test",
+    "name": "東工大ポータル自動ログイン",
     "version": "0.1",
 
-    "description": "Page Action Test",
+    "description": "東工大ポータルに自動でログインできます。",
     "icons":{"48":"titech_symbol_48_48.png",
         "128":"titech_symbol_128_128.png"},
     "options_page": "options.html",
